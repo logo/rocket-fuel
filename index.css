@@ -1,21 +1,2 @@
-
-/**
- * Rocket Fuel logo.
- */
-
-.logo[data-logo="Rocket Fuel"] {
-  width: 0;
-}
-
-.logo[data-logo="Rocket Fuel"] > * {
-  background-image: url(images/logo.svg);
-  margin: 0 0 0 0;
-}
-
-.logo[data-logo="Rocket Fuel"][data-color="black"] > * {
-  background-image: url(images/logo-black.svg);
-}
-
-.logo[data-logo="Rocket Fuel"][data-color="white"] > * {
-  background-image: url(images/logo-white.svg);
-}
+@import 'logo/logo';
+@import './style';
